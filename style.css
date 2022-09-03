@@ -1,0 +1,46 @@
+.header {
+  background-color: lightslategray;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+.footer {
+  float: right;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: lightcoral;
+}
+.box {
+  width: 30%;
+  float: left;
+  padding: 1%;
+  margin: 0.5%;
+  background-color: rgb(181, 207, 207);
+  text-align: right;
+}
+.box img {
+  width: 100%;
+  height: 400px;
+  text-align: right;
+}
+.ayelet {
+  background-image: url(../homework1/תמונות/pexels-anna-shvets-6291410.jpg);
+
+  /* height: fit-content;
+  width: 300xp; */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196f3; */
+  padding: 10px;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
